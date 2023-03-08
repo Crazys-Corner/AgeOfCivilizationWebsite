@@ -10,8 +10,30 @@ p {
   font-family: lato
 
 }
+#navbar {
+font-family: lato;
 
-
+}
+.linktext:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linktext:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linktext:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linktext:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
 img {
   max-width: 50%;
   height: auto;
@@ -47,7 +69,11 @@ img {
   margin-top: 1px;
   text-align: center;
 }
-
+.blurplelink:hover {
+  color:aquamarine;
+  background-color: transparent;
+  text-decoration: none;
+}
 .discordblurple {
   display: flex;
   justify-content: center;
@@ -55,8 +81,7 @@ img {
   font-weight: 700;
   color: #5865F2;
   margin-top: 1px;
-  text-align: center;
-
+  text-align: center; 
 }
 .mcip {
   display: block;
