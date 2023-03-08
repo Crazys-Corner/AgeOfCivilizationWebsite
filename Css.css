@@ -27,6 +27,7 @@ img {
 #title {
   margin: 150px auto 200px auto;
   position: relative;
+  font-family: lato
 }
 .subtitle {
   display: block;
