@@ -33,26 +33,65 @@
     <span class="mcaocnet">mc.ageofcivilization.net</span>   
     </div>
     <br>
-    <button onclick="copyText()">Click to Copy to Clipboard</button>
+    <button id="copy" class="copy-button"> Click to copy to clipboard </button>
     <script>
-            function copyText() {
-                /* Copy text into clipboard */
-                navigator.clipboard.writeText
-                        ("mc.ageofcivilization.net")
-                        clipboard.on('success', function(e) {
-                            e.clearSelection();
-                            e.trigger.textContent = 'Copied!';
-                                    });
-            }
+        
+function copyText() {
+  let copyButton = document.getElementById("copy");
+  navigator.clipboard.writeText("mc.ageofcivilization.net");
+  
+  notifyCopy(copyButton);
+}
+
+function notifyCopy(copyButton) {
+  copyButton.innerText = "Copied to clipboard!";
+  copyButton.classList.add("Copied");
+  
+  // Sets a delay before calling the resetCopyButton function
+  setTimeout(function() {resetCopyButton(copyButton)}, 1500);
+}
+
+function resetCopyButton(b) {
+  b.innerText = "Click to copy to clipboard";
+  b.classList.remove("copied");
+}
+
+document.getElementById("copy").addEventListener("click", copyText);
     </script>
-    <br><br><br>
-
-    <div class="discordiframe" style="text-align: center;">
-
-        <iframe src="https://discord.com/widget?id=1067237382178471958&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
+    <br>
+    <div>
+        <h3 class="header">What is Age of Civilization?</h3>
+        <span class="whatis">Age of Civilization is a Modded Minecraft Server oriented towards those who want to simulate the world.<br>
+        Fight, Steal, Trade, Make Alliances and do whatever you could image in Age of Civilization.</span>
+    </div> <br>
+    <div class="discordiframe" style="text-align: center;"> 
+<aside>
+       <p> <iframe src="https://discord.com/widget?id=1067237382178471958&theme=dark" width="230" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> </p>
+</aside>
     </div>
-
+    <div>
+        <h3 class="header">Essential Links</h3>
+        <span><a class="linkzone"href="https://ageofcivilization.net/wiki">Wiki</a></span> <br> <br>
+        <span><a class="linkzone" href="https://ageofcivilization.net/forums">Forums</a></span> <br> <br>
+        <span><a class="linkzone" href="https://ageofcivilization.net/blank">Wip</a></span> <br> <br>
+        <span><a class="linkzone" href="https://ageofcivilization.net/blank">Wip</a></span> <br> <br>
+        <span><a class="linkzone" href="https://ageofcivilization.net/blank">Wip</a></span> <br> <br>
+    </div>
+    <div class="mediazone">
+        <h3 class="header">Media</h3>
+        <span><img src="https://www.ageofcivilization.net/img/noma1.png" alt="Picture of Nomatika's Norea"></span><br>
+        <span class="caption">Picture of Nomatika's Norea and the Auroras Boreales </span><br> <br>
+        <span><img src="https://www.ageofcivilization.net/img/silent1.png" alt="Picture of Silent's Hong Kong"></span>
+        <br><span class="caption">Picture of Silent's Hong Kong and a village</span> <br> <br>
+        <span><img src="https://www.ageofcivilization.net/img/silent2.png" alt="Picture of Silents's Hong Kong"></span>
+        <br><span class="caption">Picture of Silent's Hong Kong and a Fenced off Industrial Area</span> <br> <br>
+        <span><img src="https://www.ageofcivilization.net/img/silent3.png" alt="Picture of Silents's Hong Kong"></span>
+        <br><span class="caption">Picture of Silent's Hong Kong and a House made of Quartz & Brick</span> <br> <br>
+        <span><img src="https://www.ageofcivilization.net/img/silent4.png" alt="Picture of Silents's Hong Kong"></span>
+        <br><span class="caption">Picture of Silent's Hong Kong and the inside of an Industrial Building</span> <br> <br>
+    
+    </div>
+<footer><br> <br> Written by crazy's_corner#6583. Copy Button by Peter#0006</footer>
 </div>
 </body>
 </html>

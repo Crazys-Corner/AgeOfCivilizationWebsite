@@ -5,7 +5,12 @@
 h1 {
   font-family: lato
 }
-
+.header {
+  color: black;
+  background-color:transparent;
+  text-align: center
+  
+}
 p {
   font-family: lato
 
@@ -46,12 +51,12 @@ img {
 }
 
 
-#title {
+#title { 
   margin: 150px auto 200px auto;
   position: relative;
   font-family: lato
 }
-.subtitle {
+.subtitle { /*Basically Everything */ 
   display: block;
   font-size: 24px;
   font-weight: 300;
@@ -109,4 +114,81 @@ button {
   margin: auto;
   text-align: center;
 
+}
+
+footer {
+  display: block;
+  font-size: 10px;
+  font-weight: 300;
+  color: #81899c;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.linkzone {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: #81899c;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.mediazone {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: #81899c;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.caption {
+  font-size: 15px;
+  color: black;
+  font-weight: 200;
+}
+
+/* .discordiframe {
+
+  height: 100%; 
+  width: 220px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .discordiframe {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+
+.whatis {
+  text-align: center;  
+  display: block;
+  font-size: 14px;
+}
+
+.linkzone:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkzone:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkzone:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkzone:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
 }
