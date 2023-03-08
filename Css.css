@@ -200,3 +200,10 @@ footer {
   background-color: transparent;
   text-decoration: none;
 }
+
+.backtohome {
+  display: block;
+  color: #f7a32d;
+  font-family: lato;
+  text-align: center;
+}
