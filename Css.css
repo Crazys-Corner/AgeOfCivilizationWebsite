@@ -9,7 +9,6 @@ h1 {
   color: black;
   background-color:transparent;
   text-align: center
-  
 }
 p {
   font-family: lato
@@ -67,8 +66,7 @@ img {
 .subtitle { /*Basically Everything */ 
   display: block;
   font-size: 24px;
-  font-weight: 300;
-  color: #81899c;
+  color: black;
   margin-top: 1px;
   text-align: center;
 }
@@ -77,8 +75,7 @@ img {
   display: flex;
   justify-content: center;
   font-size: 24px;
-  font-weight: 300;
-  color: #81899c;
+  color: #000000;
   margin-top: 1px;
   text-align: center;
 }
@@ -90,8 +87,8 @@ img {
 .discordblurple {
   display: flex;
   justify-content: center;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 900;
   color: #5865F2;
   margin-top: 1px;
   text-align: center; 
@@ -99,8 +96,8 @@ img {
 .mcip {
   display: block;
   font-size: 24px;
-  font-weight: 300;
-  color: #81899c;
+  font-weight: 700;
+  color: #000000;
   margin-top: 1px;
   text-align: center;
 }
@@ -121,6 +118,8 @@ button {
   display: block;
   margin: auto;
   text-align: center;
+  font-weight: 1000;
+  font-size: 40px;
 
 }
 
@@ -150,7 +149,13 @@ footer {
   margin-top: 1px;
   text-align: center;
 }
-
+body {
+  background-image: url('https://ageofcivilization.net/img/MountainPic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -670px
+}
 .caption {
   font-size: 15px;
   color: black;
@@ -177,7 +182,7 @@ footer {
 .whatis {
   text-align: center;  
   display: block;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .linkzone:link {
