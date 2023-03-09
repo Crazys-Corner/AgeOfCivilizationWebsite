@@ -179,6 +179,10 @@ body {
   .sidenav a {font-size: 18px;}
 } */
 
+.sidenav {
+  text-align: right;
+}
+
 .whatis {
   text-align: center;  
   display: block;
