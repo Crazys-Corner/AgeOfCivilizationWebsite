@@ -118,6 +118,16 @@ display: block;
   background-color: transparent;
   text-decoration: none;
 }
+
+.logo {
+text-align:center;
+width: 5rem;
+height: 5rem;
+display: block;
+margin-right:auto;
+margin-left: auto;
+}
+
 .linktext:hover {
   color: cyan;
   background-color: transparent;
@@ -139,8 +149,8 @@ img {
   font-weight: 500;
   color: black;
   text-align: center;
-  font-size: 15px;
-  font: lato;
+  font-size: 2rem;
+  font-family: lato;
 }
 
 #title { 
@@ -225,6 +235,14 @@ footer {
   margin-top: 1px;
   text-align: center;
 }
+.linkzonesmall {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #81899c;
+  margin-top: 1px;
+  text-align: center;
+}
 
 .mediazone {
   display: block;
@@ -288,7 +306,26 @@ footer {
   background-color: transparent;
   text-decoration: none;
 }
-
+.linkzonesmall:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkzonesmall:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkzonesmall:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkzonesmall:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
 .backtohome {
   display: block;
   color: #f7a32d;
