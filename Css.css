@@ -2,6 +2,91 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.sidenav {
+  width: 2rem;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  right: 0px;
+  backdrop-filter: blur(10px);
+  overflow-x: hidden;
+  padding: 0px;
+  text-align: center;
+  color: wheat;
+
+  transition: width .6s ease-in-out, box-shadow 0.6s ease-in-out;
+  
+  border: 2px solid black;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+/*   padding: 1em; */
+
+ 
+}
+
+body{
+  background-image: url('https://images3.alphacoders.com/118/1184187.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+/*   background-attachment: absolute; */
+/*   background-position-y: -1070px; */
+  
+  display: flex;
+  justify-content:center;
+  
+  margin: 0;
+  padding: 0;
+  
+  backdrop-filter: blur(3px);
+}
+
+.sidenav:hover {
+  width: 15rem;
+
+
+    
+  -webkit-box-shadow: -29px 14px 29px -15px rgba(0,0,0,0.67);
+  -moz-box-shadow: -29px 14px 29px -15px rgba(0,0,0,0.67);
+  box-shadow: -29px 14px 29px -15px rgba(0,0,0,0.67);
+  
+/*   filter: blur(0px);   */
+}
+
+.sidenav-content {
+  margin: 1em;
+/*   filter: blur(4px); */
+  transition: filter .5s;
+}
+
+
+
+.main-container{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 70%;
+  min-height: 100vh;
+  
+  background: rgba(255, 255, 255, .3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(20px);
+  box-shadow: -1px 1px 66px 36px rgba(0,0,0,0.64);
+  
+
+}
+
+.title-img{
+  height: 5.5rem;
+  margin-top: 1.5rem;
+  top: 0;
+}
+
+
 h1 {
   font-family: lato
 }
@@ -134,8 +219,8 @@ footer {
 
 .linkzone {
   display: block;
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 500;
   color: #81899c;
   margin-top: 1px;
   text-align: center;
@@ -149,17 +234,12 @@ footer {
   margin-top: 1px;
   text-align: center;
 }
-body {
-  background-image: url('https://ageofcivilization.net/img/MountainPic.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position-y: -670px
-}
+
 .caption {
   font-size: 15px;
   color: black;
   font-weight: 200;
+  font-family: lato;
 }
 
 /* .discordiframe {
@@ -179,17 +259,8 @@ body {
   .sidenav a {font-size: 18px;}
 } */
 
-.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  right: 10px;
-  background: transparent;
-  overflow-x: hidden;
-  padding: 8px 0;
-  text-align: center;
-}
+
+
 
 .whatis {
   text-align: center;  
