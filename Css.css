@@ -60,7 +60,16 @@ body{
   transition: filter .5s;
 }
 
+#redstoneimg {
 
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top:auto;
+margin-bottom: auto;
+text-align: center;
+
+}
 
 .main-container{
   font-family: 'Poppins', sans-serif;
